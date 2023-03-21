@@ -1,0 +1,88 @@
+|-Endpoint
+|--https://pokeapi.co/api/v2/pokemon?limit=36
+|--Yang harus dilakukan
+|---Dapatkan daftar Pokemon dari No.1 hingga No.36
+|---Tampilkan informasi dari pokemon
+|---Ubah warna latar belakangnya berdasarkan tipe Pokemon (Ada beberapa pokemon yang memilki 2 tipe tapi kita akan hanya gunakan tipe pertamanya.)
+
+
+kode bg
+switch (typePokemon) {
+	case "grass":
+		bg = "#8DD694";
+		border = "#5DAD65";
+		break;
+	case "water":
+		bg = "#8DC6E6";
+		border = "#6F9ECA";
+		break;
+	case "fire":
+		bg = "#E69D8D";
+		border = "#C67D6D";
+		break;
+	case "bug":
+		bg = "#BDDD7A";
+		border = "#A2C170";
+		break;
+	case "normal":
+		bg = "#B1B1B1";
+		border = "#959595";
+		break;
+	case "flying":
+		bg = "#C9ADEC";
+		border = "#A485CC";
+		break;
+	case "rock":
+		bg = "#B99D72";
+		border = "#957D59";
+		break;
+	case "ground":
+		bg = "#EFBE85";
+		border = "#D0A068";
+		break;
+	case "psychic":
+		bg = "#D053BC";
+		border = "#A44094";
+		break;
+	case "ghost":
+		bg = "#835E94";
+		border = "#6B4C79";
+		break;
+	case "dark":
+		bg = "#C9ADEC";
+		border = "#A485CC";
+		break;
+	case "steel":
+		bg = "#598FA3";
+		border = "#517C8B";
+		break;
+	case "poison":
+		bg = "#A55DB1";
+		border = "#8A4A95";
+		break;
+	case "electric":
+		bg = "#E7C859";
+		border = "#D0B34A";
+		break;
+	case "fairy":
+		bg = "#EEA1E2";
+		border = "#C77FBC";
+		break;
+	case "fighting":
+		bg = "#E07F60";
+		border = "#B1664F";
+		break;
+	case "dragon":
+		bg = "#8859D5";
+		border = "#724CAE";
+		break;
+	case "ice":
+		bg = "#71D8DE";
+		border = "#65C1C6";
+		break;
+
+	default:
+		bg = "";
+		border = "";
+		break;
+};
